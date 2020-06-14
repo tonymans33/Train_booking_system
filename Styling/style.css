@@ -1,0 +1,203 @@
+body
+{
+    background-image: url('../resources/travel-hd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.group
+{
+    margin-top:120px;
+}
+.groupindex
+{
+    margin-top: 280px;
+}
+.grouplogin
+{
+    margin-top: 250px;
+}
+input[type=text], input[type=password]
+{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+a:link
+{
+    color : black;
+}
+a:visited
+{
+    color : black;
+}
+a:hover
+{
+    color : black;
+}
+
+#but
+{
+    color: black;
+    border: white;
+    padding: 10px
+
+}
+#but:hover
+{
+    opacity: 1;
+
+
+}
+#name
+{
+    margin-top: 280px;
+}
+
+#mail
+{
+    margin-top: 280px;
+}
+#error
+{
+    color:red;
+}
+.col
+{
+    float: left;
+    width: 100%;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.addtripborders
+{
+
+    margin-top : 130px;
+    display: block;
+    border: 1px solid white;
+    width:450px;
+    height: 545px;
+    margin-left: 550px;
+    background:rgba(255,255,255, 0.7);
+    border-radius: 25px;
+}
+.regborders
+{
+    margin-top : 150px;
+    display: block;
+    border: 1px solid white;
+    width:450px;
+    height: 562px;
+    margin-left: 550px;
+    background:rgba(255,255,255, 0.8);
+    border-radius: 25px;
+
+}
+.loginborders
+{
+
+    display: block;
+    border: 1px solid white;
+    width:450px;
+    height: 407px;
+    margin-left: 550px;
+    background:rgba(255,255,255, 0.8);
+    border-radius: 25px;
+    margin-top: 200px;
+
+}
+.upadborders
+{
+    display: block;
+    border: 1px solid white;
+    width:450px;
+    height: 407px;
+    margin-left: 550px;
+    background:rgba(255,255,255, 0.8);
+    border-radius: 25px;
+    margin-top: 200px;
+}
+.addtrainborders
+{
+    margin-top : 130px;
+    display: block;
+    border: 1px solid white;
+    width:300px;
+    height: 480px;
+    margin-left: 550px;
+    background:rgba(255,255,255, 0.7);
+    border-radius: 25px;
+}
+#pwd
+{
+    margin-top: 280px;
+    display: block;
+    border: 1px solid white;
+    width:450px;
+    height: 434px;
+    margin-left: 550px;
+    background:rgba(255,255,255, 0.8);
+    border-radius: 25px;
+    margin-top: 220px;
+}
+
+/*TABLES*/
+table.blueTable {
+    border: 1px solid white;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+
+}
+table.blueTable td, table.blueTable th {
+    border: 1px solid #AAAAAA;
+    padding: 6px 9px;
+
+}
+table.blueTable tbody td {
+    font-size: 13px;
+    color: #2F332F;
+
+}
+
+table.blueTable thead {
+    background: white;
+    border-bottom: 1px solid ;
+
+}
+table.blueTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Droid Sans";
+    color: black;
+    border-left: 1px solid ;
+
+}
+table.blueTable thead th:first-child {
+    border-left: none;
+
+}
+
+#editbtn
+{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
